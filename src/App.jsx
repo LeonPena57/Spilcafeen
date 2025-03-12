@@ -2,35 +2,38 @@ import React, { useState, useEffect } from "react";
 import { FaEdit, FaTrash } from "react-icons/fa"; // Import icons
 import "./App.css";
 
+import ExplodingKittens from './images/Explode.png'
+
+
 function App() {
   const defaultGames = [
     {
       id: 1,
-      name: "Catan",
-      players: "3-4",
-      tags: "Strategy, Board Game",
-      image: "/images/catan.png",
+      name: "Exploding Kittens",
+      players: "2-4",
+      tags: "Cards, Funny, Family",
+      image: ExplodingKittens,
     },
     {
       id: 2,
       name: "Risk",
       players: "2-6",
       tags: "Strategy, War",
-      image: "/images/risk.png",
+      image: RiskImage,
     },
     {
       id: 3,
-      name: "Carcassonne",
+      name: "Uno",
       players: "2-5",
       tags: "Tile, Strategy",
-      image: "/images/carcassonne.png",
+      image: UnoImage,
     },
     {
       id: 4,
       name: "Ticket to Ride",
       players: "2-5",
       tags: "Travel, Strategy",
-      image: "/images/ticket-to-ride.png",
+      image: TickettoImage,
     },
   ];
 
