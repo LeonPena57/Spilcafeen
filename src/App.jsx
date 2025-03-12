@@ -19,21 +19,21 @@ function App() {
       name: "Risk",
       players: "2-6",
       tags: "Strategy, War",
-      image: RiskImage,
+      image: "/images/risk.png",
     },
     {
       id: 3,
-      name: "Uno",
+      name: "Carcassonne",
       players: "2-5",
       tags: "Tile, Strategy",
-      image: UnoImage,
+      image: "/images/carcassonne.png",
     },
     {
       id: 4,
       name: "Ticket to Ride",
       players: "2-5",
       tags: "Travel, Strategy",
-      image: TickettoImage,
+      image: "/images/ticket-to-ride.png",
     },
   ];
 
